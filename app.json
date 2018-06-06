@@ -1,0 +1,23 @@
+{
+  "name": "friendly-ocean",
+  "scripts": {
+  },
+  "env": {
+    "TIMES": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
